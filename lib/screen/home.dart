@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
     return ConnectivityProvider.of(context, listen: true).isOnline
         ? const Scaffold(
             body: Center(
-              child: Text("Demo for home page"),
+              child: Text("Close Your Wifi to see "),
             ),
           )
         :const  NoInternet();
